@@ -1,7 +1,13 @@
-import React, { Component } from "react";
+import React, { Fragment, Component } from "react";
+import Navbar from "./Navbar";
 
 export default class Form extends Component {
   render() {
-    return <div>Form</div>;
+    return (
+      <Fragment>
+        <Navbar />
+        <div className="counter"></div>
+      </Fragment>
+    );
   }
 }
