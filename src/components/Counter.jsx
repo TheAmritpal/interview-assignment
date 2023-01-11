@@ -24,8 +24,8 @@ export class Counter extends Component {
     return (
       <React.Fragment>
         <Navbar />
-        <div className="counter">
-          <div className="counterContent">
+        <div className="main">
+          <div className="content">
             <button className="counterBtn" onClick={() => this.updateCounter("add")}>
               +
             </button>

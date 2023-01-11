@@ -6,7 +6,7 @@ export default class Home extends Component {
     return (
       <React.Fragment>
         <Navbar />
-        <div className="counter">
+        <div className="main">
           <p>Counter and Form </p>
         </div>
       </React.Fragment>
